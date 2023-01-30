@@ -142,11 +142,11 @@
   {
     "name": "creating art is the perfect anti-depressant",
     "year": "soul",
-    "description": "'Life beats down and crushes the soul and art reminds you that you have one.' Stella Adler",
+    "description": "'Whether you succeed or not is irrelevant, there is no such thing. Making your unknown known is the important thing.' Georgia O'Keef",
     "source": "https://en.wikipedia.org/wiki/The_Great_Wave_off_Kanagawa",
     "artist": {
       "image": "/assets/the-great-wave-off-kanagawa/artist.jpg",
-      "name": "Hokusai",
+      "name": "You have a soul",
       "artistwidth": 128,
       "artistheight": 128
     },
@@ -174,7 +174,7 @@
     "source": "https://en.wikipedia.org/wiki/Van_Gogh_self-portrait_(1889)",
     "artist": {
       "image": "/assets/van-gogh-self-portrait/artist.jpg",
-      "name": "Vincent Van Gogh",
+      "name": "Duty of the artist",
       "artistwidth": 128,
       "artistheight": 128
     },
@@ -202,7 +202,7 @@
     "source": "https://en.wikipedia.org/wiki/The_Sleeping_Gypsy",
     "artist": {
       "image": "/assets/the-sleeping-gypsy/artist.jpg",
-      "name": "Michelangelo",
+      "name": "Seeing",
       "artistwidth": 128,
       "artistheight": 128
     },
@@ -230,7 +230,7 @@
     "source": "https://en.wikipedia.org/wiki/Lady_with_an_Ermine",
     "artist": {
       "image": "/assets/lady-with-an-ermine/artist.jpg",
-      "name": "Theodore Dreiser",
+      "name": "Consciousness",
       "artistwidth": 128,
       "artistheight": 128
     },
@@ -258,7 +258,7 @@
     "source": "https://en.wikipedia.org/wiki/The_Night_Caf%C3%A9",
     "artist": {
       "image": "/assets/the-night-cafe/artist.jpg",
-      "name": "Henry Ward Beecher",
+      "name": "Every Artist",
       "artistwidth": 128,
       "artistheight": 128
     },
@@ -286,7 +286,7 @@
     "source": "https://en.wikipedia.org/wiki/The_Basket_of_Apples",
     "artist": {
       "image": "/assets/the-basket-of-apples/artist.jpg",
-      "name": "Paul Cézanne",
+      "name": "Deepen",
       "artistwidth": 128,
       "artistheight": 128
     },
@@ -308,7 +308,7 @@
     }
   },
   {
-    "name": "Sakura",
+    "name": "Flowers",
     "year": "Sakura",
     "description": "Sakura ",
     "source": "https://en.wikipedia.org/wiki/The_Boy_in_the_Red_Vest",
@@ -364,12 +364,12 @@
     }
   },
   {
-    "name": "the image that emerges can be analyzed by reading the energy that it represents.",
+    "name": "The image that emerges can be analyzed by reading the energy that it represents.",
     "year": "art is...",
     "description": "'The main thing is to be moved, to love, to hope, to tremble, to live.' Auguste Rodin",
     "artist": {
       "image": "/assets/mona-lisa/artist.jpg",
-      "name": "Leonardo da Vinci",
+      "name": "Emerging",
       "artistwidth": 128,
       "artistheight": 128
     },
@@ -397,7 +397,7 @@
     "source": "https://en.wikipedia.org/wiki/The_Swing_(Fragonard)",
     "artist": {
       "image": "/assets/the-swing/artist.jpg",
-      "name": "Jean-Honoré Fragonard",
+      "name": "Believe",
       "artistwidth": 128,
       "artistheight": 128
     },
