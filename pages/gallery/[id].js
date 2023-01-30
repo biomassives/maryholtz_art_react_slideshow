@@ -6,7 +6,11 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import { useState } from "react";
 import Layout from "../../components/layout";
-import { getAllPostIds, getOnePostData, useMediaQuery } from "../../utils/photos";
+import {
+  getAllPostIds,
+  getOnePostData,
+  useMediaQuery,
+} from "../../utils/photos";
 import viewSVG from "../../public/assets/shared/icon-view-image.svg";
 import iconBack from "../../public/assets/shared/icon-back-button.svg";
 import iconNext from "../../public/assets/shared/icon-next-button.svg";
@@ -29,7 +33,8 @@ export async function getStaticPaths() {
 }
 
 export default function Post({ postData }) {
-  const { direction, setDirection, exitDirection, setExitDirection } = useContext(DirectionContext);
+  const { direction, setDirection, exitDirection, setExitDirection } =
+    useContext(DirectionContext);
 
   const [isOpen, setIsOpen] = useState(false);
 
@@ -46,7 +51,11 @@ export default function Post({ postData }) {
 
   const variants = {
     inital: { opacity: 0, x: direction },
-    animate: { opacity: 1, x: 0, transition: { delay: 0.2, duration: 1.3, type: "tween" } },
+    animate: {
+      opacity: 1,
+      x: 0,
+      transition: { delay: 0.2, duration: 1.3, type: "tween" },
+    },
     exit: { opacity: 0, x: exitDirection, transition: { duration: 0.5 } },
   };
 
@@ -67,10 +76,16 @@ export default function Post({ postData }) {
           <div className="imageContainer">
             <Image
               className="heroImage"
-              src={is760 ? postData.images.hero.small : postData.images.hero.large}
+              src={
+                is760 ? postData.images.hero.small : postData.images.hero.large
+              }
               alt={postData.name}
-              width={is760 ? postData.images.smallwidth : postData.images.bigwidth}
-              height={is760 ? postData.images.smallheight : postData.images.bigheight}
+              width={
+                is760 ? postData.images.smallwidth : postData.images.bigwidth
+              }
+              height={
+                is760 ? postData.images.smallheight : postData.images.bigheight
+              }
               blurDataURL={postData.images.thumbnail}
               layout="responsive"
               placeholder="blur"
@@ -81,19 +96,6 @@ export default function Post({ postData }) {
               <Image className="viewsvg" src={viewSVG} alt="icon-view-image" />
               <p className="viewText">View Image</p>
             </button>
-            <div className="artistImage">
-              <Image
-                className="artistImage"
-                src={postData.artist.image}
-                alt={postData.artist.name}
-                width={postData.artist.artistwidth}
-                height={postData.artist.artistheight}
-                blurDataURL={postData.artist.image}
-                placeholder="blur"
-                priority="true"
-                key={postData.artist.name}
-              />
-            </div>
           </div>
           <div className="titleContainer">
             <h1 className="paintingName">{postData.name}</h1>
@@ -109,7 +111,9 @@ export default function Post({ postData }) {
         </motion.article>
         <div
           className="controller"
-          style={{ borderImageSource: `linear-gradient(to right, #000000 ${percent}%, #E5E5E5 1%)` }}
+          style={{
+            borderImageSource: `linear-gradient(to right, #000000 ${percent}%, #E5E5E5 1%)`,
+          }}
         >
           <div className="controllerText">
             <h3 className="controllerH3">{postData.name}</h3>
@@ -123,7 +127,11 @@ export default function Post({ postData }) {
                   setDirection(-1000);
                 }}
               >
-                <Image className="controlBtn" src={iconBack} alt="icon-back-button" />
+                <Image
+                  className="controlBtn"
+                  src={iconBack}
+                  alt="icon-back-button"
+                />
               </a>
             </Link>
             <Link scroll={false} href={`/gallery/${next}`} passHref>
@@ -133,7 +141,11 @@ export default function Post({ postData }) {
                   setDirection(1000);
                 }}
               >
-                <Image className="controlBtn" src={iconNext} alt="icon-next-button" />
+                <Image
+                  className="controlBtn"
+                  src={iconNext}
+                  alt="icon-next-button"
+                />
               </a>
             </Link>
           </div>
@@ -198,11 +210,7 @@ export default function Post({ postData }) {
         background: rgba(143, 143, 143, 0.7);
       }
       
-      .artistImage {
-        position: absolute;
-        right: -175px;
-        bottom: -50px;
-      }
+
       
       .viewText {
         color: white;
@@ -218,7 +226,6 @@ export default function Post({ postData }) {
       }
       
       .titleContainer {
-        background-color: white;
         margin-top: -1px;
         padding-left: 50px;
         grid-column: 8/15;
@@ -231,10 +238,12 @@ export default function Post({ postData }) {
       }
       
       .paintingName {
+        padding-left: 30px;
         padding-bottom: 30px;
       }
       
       .artistName {
+        padding-left: 30px;
         padding-bottom: 50px;
         color: #7d7d7d;
       }
@@ -379,11 +388,7 @@ export default function Post({ postData }) {
         .imageContainer {
           grid-column: 3/16;
         }
-        .artistImage {
-          position: absolute;
-          right: -175px;
-          bottom: 170px;
-        }
+
         .titleContainer {
           grid-column: 11 /24;
         }
@@ -414,11 +419,7 @@ export default function Post({ postData }) {
         .imageContainer {
           grid-column: 1/16;
         }
-        .artistImage {
-          position: absolute;
-          right: -175px;
-          bottom: 100px;
-        }
+
         .titleContainer {
           grid-column: 9 /24;
         }
@@ -446,13 +447,7 @@ export default function Post({ postData }) {
         .imageContainer {
           grid-column: 1/25;
         }
-        .artistImage {
-          width: 64px;
-          right: unset;
-          left: 0;
-          bottom: -90px;
-          z-index: 4;
-        }
+
         .viewImage {
           bottom: unset;
           top: 30px;

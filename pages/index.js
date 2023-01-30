@@ -21,7 +21,11 @@ export default function Home({ allPostsData }) {
 
   const variants = {
     inital: { opacity: 0, y: 10 },
-    animate: { opacity: 1, y: 0, transition: { delay: 0.5, duration: 1.5, type: "tween" } },
+    animate: {
+      opacity: 1,
+      y: 0,
+      transition: { delay: 0.5, duration: 1.5, type: "tween" },
+    },
     exit: { opacity: 0, transition: { duration: 0.5 } },
   };
 
@@ -29,9 +33,15 @@ export default function Home({ allPostsData }) {
     <>
       <Layout home>
         <Head>
-          <title>NextJs Galleria</title>
+          <title>Mary Holtz Art</title>
         </Head>
-        <motion.section variants={variants} exit="exit" initial="inital" animate="animate" className="mainGallery">
+        <motion.section
+          variants={variants}
+          exit="exit"
+          initial="inital"
+          animate="animate"
+          className="mainGallery"
+        >
           <div className="imageList">
             {allPostsData.map(({ id, images, name, artist }) => (
               <div key={id} className="listItem">
@@ -87,6 +97,7 @@ export default function Home({ allPostsData }) {
         .imageItem {
           align-self: start;
           width: 100%;
+          padding-right: 40px;
         }
         
         .overlay {
@@ -108,6 +119,7 @@ export default function Home({ allPostsData }) {
         }
         
         .paintingName {
+          display: none;
           color: white;
           padding-bottom: 8px;
         }
