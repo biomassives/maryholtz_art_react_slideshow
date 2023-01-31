@@ -90,7 +90,7 @@
     "source": "https://en.wikipedia.org/wiki/Penitent_Magdalene_(Artemisia_Gentileschi)",
     "artist": {
       "image": "/assets/penitent-magdalene/artist.jpg",
-      "name": "Artemisia Gentileschi",
+      "name": "Solace",
       "artistwidth": 128,
       "artistheight": 128
     },
@@ -252,13 +252,13 @@
     }
   },
   {
-    "name": "Nature",
+    "name": "Dipping in",
     "year": "nature",
     "description": "'Every artist dips his brush in his own soul, and paints his own nature into his pictures.' Henry Ward Beecher",
     "source": "https://en.wikipedia.org/wiki/The_Night_Caf%C3%A9",
     "artist": {
       "image": "/assets/the-night-cafe/artist.jpg",
-      "name": "Every Artist",
+      "name": "Nature",
       "artistwidth": 128,
       "artistheight": 128
     },
@@ -369,7 +369,7 @@
     "description": "'The main thing is to be moved, to love, to hope, to tremble, to live.' Auguste Rodin",
     "artist": {
       "image": "/assets/mona-lisa/artist.jpg",
-      "name": "Emerging",
+      "name": "Emergence",
       "artistwidth": 128,
       "artistheight": 128
     },
@@ -438,12 +438,12 @@
       "smallheight": 560,
       "thumbwidth": 600,
       "thumbheight": 624,
-      "thumbnail": "/assets/achey-breaky-back-book/thumbnail.jpg",
+      "thumbnail": "/assets/achey-breaky-back-book/acheybreakyback.jpg",
       "hero": {
-        "small": "/assets/achey-breaky-back-book/hero-small.jpg",
-        "large": "/assets/achey-breaky-back-book/hero-large.jpg"
+        "small": "/assets/achey-breaky-back-book/acheybreakyback.jpg",
+        "large": "/assets/achey-breaky-back-book/acheybreakyback.jpg"
       },
-      "gallery": "/assets/achey-breaky-back-book/gallery.jpg"
+      "gallery": "/assets/achey-breaky-back-book/acheybreakyback.jpg"
     }
   }
 ]
