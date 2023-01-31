@@ -417,5 +417,33 @@
       },
       "gallery": "/assets/the-swing/gallery.jpg"
     }
+  },
+   {
+    "name": "Achey Breaky Back Book",
+    "year": "health",
+    "description": "What to do and what not to do while in the different back pain stages.",
+    "source": "https://www.amazon.com/Achy-Breaky-Back-Quick-Guide-Stages-ebook/dp/B09GXR1V8D",
+    "artist": {
+      "image": "/assets/achey-breaky-back-book/artist.jpg",
+      "name": "Arnie Holtz",
+      "artistwidth": 128,
+      "artistheight": 128
+    },
+    "images": {
+      "gallerywidth": 585,
+      "galleryheight": 712,
+      "bigwidth": 950,
+      "bigheight": 1120,
+      "smallwidth": 654,
+      "smallheight": 560,
+      "thumbwidth": 600,
+      "thumbheight": 624,
+      "thumbnail": "/assets/achey-breaky-back-book/thumbnail.jpg",
+      "hero": {
+        "small": "/assets/achey-breaky-back-book/hero-small.jpg",
+        "large": "/assets/achey-breaky-back-book/hero-large.jpg"
+      },
+      "gallery": "/assets/achey-breaky-back-book/gallery.jpg"
+    }
   }
 ]
