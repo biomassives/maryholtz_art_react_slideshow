@@ -427,17 +427,17 @@
       "image": "/assets/achey-breaky-back-book/artist.jpg",
       "name": "Arnie Holtz",
       "artistwidth": 128,
-      "artistheight": 128
+      "artistheight": 200
     },
     "images": {
-      "gallerywidth": 585,
-      "galleryheight": 712,
+      "gallerywidth": 600,
+      "galleryheight": 1200, 
       "bigwidth": 950,
-      "bigheight": 1120,
+      "bigheight": 1900,
       "smallwidth": 654,
-      "smallheight": 560,
+      "smallheight": 1300,
       "thumbwidth": 600,
-      "thumbheight": 624,
+      "thumbheight": 1200,
       "thumbnail": "/assets/achey-breaky-back-book/acheybreakyback.jpg",
       "hero": {
         "small": "/assets/achey-breaky-back-book/acheybreakyback.jpg",
