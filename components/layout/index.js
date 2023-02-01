@@ -12,14 +12,14 @@ export default function Layout({ children, home }) {
     <>
       <Head>
         <link rel="icon" href="/favicon.ico" />
-        <meta name="description" content="Frontend Mentor galleria slideshow site built with NextJs" />
-        <meta name="og:title" content="NextJS Galleria" />
+        <meta name="description" content="visual whether seen through the eyes or felt in the spirit" />
+        <meta name="og:title" content="Mary Holtz Art" />
       </Head>
       <motion.header inital={{ opacity: 1 }} animate={{ opacity: 1 }} exit={{ opacity: 1 }} className="mainHeader">
         <div>
           <Link href="/" passHref>
             <a onClick={() => setExitDirection(0)}>
-              <Image className="logo" src={logo} alt="galleria-logo" priority />
+              <Image className="logo" src={logo} alt="mary-holtz-art-logo" priority />
             </a>
           </Link>
         </div>
