@@ -24,13 +24,7 @@ export default function Layout({ children, home }) {
           </Link>
         </div>
 
-        {home ? (
-          <Link href="https://maryholtz.art" passHref>
-            <a onClick={() => setDirection(1000)} className="link1">
-              Return to Homepage
-            </a>
-          </Link>
-          
+        {home ? (          
           <Link href="/gallery/0" passHref>
             <a onClick={() => setDirection(1000)} className="link1">
               start slideshow
@@ -43,6 +37,11 @@ export default function Layout({ children, home }) {
             </a>
           </Link>
         )}
+          <Link href="https://maryholtz.art" passHref>
+            <a onClick={() => setDirection(1000)} className="link1">
+              Return to Homepage
+            </a>
+          </Link>
       </motion.header>
 
       <main className="mainView">{children}</main>
