@@ -25,6 +25,12 @@ export default function Layout({ children, home }) {
         </div>
 
         {home ? (
+          <Link href="https://maryholtz.art" passHref>
+            <a onClick={() => setDirection(1000)} className="link1">
+              Return to Homepage
+            </a>
+          </Link>
+          
           <Link href="/gallery/0" passHref>
             <a onClick={() => setDirection(1000)} className="link1">
               start slideshow
