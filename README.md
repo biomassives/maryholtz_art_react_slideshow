@@ -1,4 +1,4 @@
-# Mary Holtz rt - Nextjs slideshow
+# Mary Holtz Art - Nextjs slideshow
 
 Solution to the [Galleria slideshow site challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/galleria-slideshow-site-tEA4pwsa6).
 
