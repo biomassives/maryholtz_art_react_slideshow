@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.png)
-![](./screenshot2.png)
+![](https://raw.githubusercontent.com/biomassives/maryholtz_art_react_slideshow/main/Screenshot%202023-03-03%20at%2017-56-31%20Mary%20Holtz%20Art.png)
+
 
 ### Links
 
